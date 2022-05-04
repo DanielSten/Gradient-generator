@@ -16,9 +16,16 @@
 	</head>
 	<body>
 		<div class="contant">
-			<div class="text">Нажмите на кнопку, <br> чтобы сгенерировать случайный градиент</div>
-			<div class="test" id="test"></div>
-			<button id="button">Click</button>
+			<div class="text" id="overflowBlackWhite">Выберите направление градиента</div>
+			<div class="block_button_direction">
+				<button class="direction_button active" id="horizontal"><i class='bx bxs-right-arrow-circle'></i></button>
+				<button class="direction_button" id="vertikal"><i class='bx bxs-down-arrow-circle' ></i></button>
+				<button class="direction_button" id="giagonalStartLeft"><i class='bx bxs-right-down-arrow-circle' ></i></button>
+				<button class="direction_button" id="giagonalStartRight"><i class='bx bxs-left-down-arrow-circle' ></i></button>
+			</div>
+			<div class="text" id="overflowBlackWhite">Нажмите на кнопку, <br> чтобы сгенерировать случайный градиент</div>
+			<div class="rgb_collor" id="overflowBlackWhite">rgb(<span id="collorStart"></span>) rgb(<span id="collorEnd"></span>)</div>
+			<button class="generate_button" id="button">Click</button>
 		</div>
 
 
